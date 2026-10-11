@@ -479,12 +479,12 @@ footer {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-  }
-   
+    }
+}
+
 /* =================================
    DICTUS PROJECT PREVIEWS
 ================================= */
-
 .project-preview {
   width: 100%;
   min-height: 230px;
