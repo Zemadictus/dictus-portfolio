@@ -473,18 +473,19 @@ footer {
     scroll-behavior: auto;
   }
 
-    *,
+  *,
   *::before,
   *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
   }
-} /* Add this closing brace */
+}
 
- /* =================================
-    DICTUS PROJECT PREVIEWS
- ================================= */
+/* =================================
+   DICTUS PROJECT PREVIEWS
+================================= */
+
 .project-preview {
   width: 100%;
   min-height: 230px;
@@ -560,8 +561,9 @@ footer {
   font-weight: bold;
 }
 
-
-/* Distinct colors for each project preview */
+/* =================================
+   PROJECT 01 — BLUE PORTFOLIO
+================================= */
 
 .portfolio-preview {
   --preview-bg: #dbeafe;
@@ -575,6 +577,10 @@ footer {
   background: var(--preview-bg);
 }
 
+/* =================================
+   PROJECT 02 — MINT DIGITAL
+================================= */
+
 .digital-preview {
   --preview-bg: #d1fae5;
   --preview-surface: #ecfdf5;
@@ -587,6 +593,10 @@ footer {
   background: var(--preview-bg);
 }
 
+/* =================================
+   PREVIEW COLORS
+================================= */
+
 .portfolio-preview .preview-content,
 .digital-preview .preview-content {
   background: var(--preview-bg);
@@ -598,35 +608,24 @@ footer {
 }
 
 .portfolio-preview .preview-brand,
-.portfolio-preview .preview-headline {
-  color: var(--preview-text) !important;
-}
-
+.portfolio-preview .preview-headline,
 .digital-preview .preview-brand,
 .digital-preview .preview-headline {
   color: var(--preview-text) !important;
 }
 
-.portfolio-preview .preview-brand span {
-  color: var(--preview-accent);
-}
-
+.portfolio-preview .preview-brand span,
 .digital-preview .preview-brand span {
-  color: var(--preview-accent);
+  color: var(--preview-accent) !important;
 }
 
-.portfolio-preview .preview-description {
-  color: var(--preview-muted) !important;
-}
-
+.portfolio-preview .preview-description,
 .digital-preview .preview-description {
   color: var(--preview-muted) !important;
 }
 
-.portfolio-preview .preview-button {
-  background: var(--preview-button);
-}
-
+.portfolio-preview .preview-button,
 .digital-preview .preview-button {
-  background: var(--preview-button);
+  background: var(--preview-button) !important;
+  color: #ffffff !important;
 }
